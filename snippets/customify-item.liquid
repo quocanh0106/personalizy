@@ -1,0 +1,1 @@
+{% assign cst_idx = shop.metafields.customify.idx %}{% if item.properties[cst_idx] %}<br /><a href='{{ shop.url }}/apps/customify?show_custom=1&id={{ item.properties[cst_idx] }}' target='_blank' >{{ shop.metafields.customify.view_text }}</a><br />{% endif %}

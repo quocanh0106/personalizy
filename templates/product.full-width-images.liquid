@@ -1,0 +1,14 @@
+                   {% if product.type  == 'SHOPSTORM_HIDDEN_PRODUCT' %}
+                     Product is not available
+                     {% break %}
+                   {% endif %}
+
+{% comment %}
+  The contents of the product.full-width-images.liquid template can be found in /sections/product-full-width-images-template.liquid
+{% endcomment %}
+
+{% section 'product-full-width-images-template' %}
+{% section 'product-recommendations' %}
+
+{% include 'product__structured-data' %}
+

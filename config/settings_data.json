@@ -1,0 +1,1943 @@
+{
+  "current": {
+    "performance": "sport",
+    "image_loading_style": "fade-in",
+    "custom_scripts": "",
+    "logo_color": "#000000",
+    "regular_color": "#000000",
+    "banner_color": "#ffffff",
+    "headline_color": "#000000",
+    "headline_footer_text_color": "#ffffff",
+    "sub_footer_text_color": "#ffffff",
+    "sale_color": "#da1a18",
+    "was_price_color": "#727272",
+    "product_hover_text_color": "#ffffff",
+    "promo_text_color": "#ffffff",
+    "shop_home_page_content_text_color": "#727272",
+    "newsletter_popup_color": "#565656",
+    "newsletter_section_color": "#727272",
+    "collection_filter_color": "#565656",
+    "top_bar_color": "#000000",
+    "top_bar_color_hover": "#565656",
+    "nav_color": "#000000",
+    "nav_color_home": "#f5b661",
+    "nav_color_hover": "#f67062",
+    "link_color": "#565656",
+    "link_hover_color": "#f67062",
+    "sidebar_nav_color": "#565656",
+    "sidebar_nav_color_hover": "#565656",
+    "sub_footer_link_color": "#ffffff",
+    "sub_footer_link_color_hover": "#f67062",
+    "btn_color": "#40ab0a",
+    "banner_button_color": "#ffffff",
+    "btn_hover_color": "#565656",
+    "btn_text_color": "#ffffff",
+    "button_style": "rounded",
+    "read_more_style": "link",
+    "swatch_style": "rounded",
+    "table_styles_enabled": true,
+    "slideshow_arrow_size": "bold",
+    "arrow_color": "#e0e0e0",
+    "slideshow_button_style": false,
+    "slideshow_nav_buttons": false,
+    "border_color": "#e0e0e0",
+    "headline_border_color": "#565656",
+    "headline_border": "0",
+    "divider_style": "solid",
+    "sub_footer_border_color": "#ffffff",
+    "banner_style": "square",
+    "sale_banner_color": "#eb0037",
+    "new_banner_color": "#565656",
+    "search_section_color": "#565656",
+    "search_section_bg_color": "#fff1df",
+    "testimonial_color": "#ffffff",
+    "testimonial_bg_color": "#77c6d8",
+    "featured_promotions_color": "#ffffff",
+    "featured_promotions_color_hover": "#ffffff",
+    "featured_promotions_background": "#77c6d8",
+    "featured_promotions_mobile_background": true,
+    "modal_background_color": "#ffffff",
+    "modal_text_color": "#565656",
+    "shop_bg_color": "#ffffff",
+    "custom_bg": "",
+    "repeat_bg": "no-repeat",
+    "bg_fixed": false,
+    "bg_stretched": false,
+    "top_bar_bg_color": "#ffffff",
+    "top_bar_cart_bg_color": "#ffffff",
+    "minicart_bg_color": "#ffffff",
+    "banner_placeholder_background_color": "#ffffff",
+    "banner_background_color": "#fadab0",
+    "header_bg_color": "#ffffff",
+    "header_background": true,
+    "transparent_header": false,
+    "promo_bg_color": "#000000",
+    "shop_home_page_content_bg_color": "#f67062",
+    "featured_links_background": "#ffffff",
+    "product_hover_bg_color": "#77c6d8",
+    "sub_footer_color": "#232323",
+    "footer_bg": "",
+    "footer_bg_stretched": false,
+    "newsletter_popup_background_color": "#ffffff",
+    "newsletter_section_background_color": "#e6e6e6",
+    "password_page_text_color": "#ffffff",
+    "password_page_background_color": "#77c6d8",
+    "logo__font": "poppins_n4",
+    "logo_font_style": "uppercase",
+    "logo_font_size": 20,
+    "top_bar_font_size": 12,
+    "top_bar_letter_spacing": 1,
+    "nav__font": "poppins_n6",
+    "nav_font_style": "none",
+    "nav_font_size": 16,
+    "nav_letter_spacing": 1,
+    "nav_shadow": false,
+    "button_weight": "bold",
+    "button_font_style": "none",
+    "button_font_size": 16,
+    "mega_text_font_size": 14,
+    "mega_text_letter_spacing": 1,
+    "headline__font": "poppins_n4",
+    "headline_font_style": "none",
+    "headline_font_size": 22,
+    "headline_letter_spacing": 1,
+    "slideshow_headline__font": "poppins_n4",
+    "slideshow_headline_font_style": "none",
+    "slideshow_headline_size": 60,
+    "slideshow_headline_letter_spacing": 1,
+    "slideshow_headline_shadow": false,
+    "slideshow_subtitle__font": "work_sans_n4",
+    "slideshow_subtitle_font_style": "none",
+    "slideshow_subtitle_size": 16,
+    "slideshow_subtitle_letter_spacing": 1,
+    "slideshow_shadow": false,
+    "regular__font": "poppins_n4",
+    "regular_font_style": "none",
+    "regular_font_size": 14,
+    "footer_logo_font_size": 22,
+    "footer_heading_font_size": 20,
+    "footer_font_size": 14,
+    "mega_menu_1": false,
+    "mega_menu_2": false,
+    "mega_menu_3": false,
+    "mega_menu_4": false,
+    "mega_menu_5": false,
+    "search_option": "products",
+    "search_pagination_type": "basic_pagination",
+    "enable_autocomplete": true,
+    "search_to_display": 10,
+    "align_height": false,
+    "collection_height": 200,
+    "thumbnail_hover_enabled": false,
+    "display_vendor": false,
+    "collection_secondary_image": true,
+    "sale_banner_enabled": false,
+    "collection_swatches": false,
+    "mobile_products_per_row": "2",
+    "pagination_type": "basic_pagination",
+    "notify_me_form": false,
+    "notify_me_richtext": "<p>Notify me when this product is available:<\/p>",
+    "product_form_style": "swatches",
+    "display_product_quantity": true,
+    "limit_quantity": false,
+    "display_inventory_left": false,
+    "inventory_threshold": 10,
+    "display_price": false,
+    "sold_out_text": "Sold out",
+    "free_price_text": "Free",
+    "size_chart": "",
+    "enable_shopify_review_comments": true,
+    "enable_shopify_collection_badges": true,
+    "quick_shop_enabled": false,
+    "quick_shop_style": "popup",
+    "product_thumbs": true,
+    "gallery_arrows": true,
+    "activate_zoom": false,
+    "slideshow_speed": 0,
+    "slideshow_animation": "slide",
+    "thumbnail_position": "bottom",
+    "enable_thumbnail_slider": true,
+    "quick_shop_display_vendor": false,
+    "quick_shop_full_description": false,
+    "description_words": 25,
+    "quick_shop_product_description_position": "top",
+    "quick_shop_display_savings": true,
+    "show_payment_button": true,
+    "product_images_position": "left",
+    "video_looping": false,
+    "cart_action": "redirect_cart",
+    "show_lock_icon": true,
+    "display_tos_checkbox": false,
+    "tos_page": "",
+    "go_to_checkout": true,
+    "display_special_instructions": true,
+    "display_savings": true,
+    "cart_message": "",
+    "show_shipping_calculator": false,
+    "shipping_calculator_default_country": "United States",
+    "show_multiple_currencies": false,
+    "currency_format": "money_format",
+    "supported_currencies": "USD CAD AUD GBP EUR JPY",
+    "default_currency": "USD",
+    "mailchimp_link": "",
+    "secondary_newsletter_banner": true,
+    "newsletter_popup": false,
+    "newsletter_popup_close": false,
+    "newsletter_popup_mobile": false,
+    "newsletter_popup_form": false,
+    "display_first_name": false,
+    "display_last_name": false,
+    "use_newsletter_border": false,
+    "newsletter_bg": "",
+    "image_crop": "none",
+    "newsletter_popup_image_align": "left",
+    "newsletter_popup_title": "Age verification",
+    "newsletter_popup_text": "<p>You can use this popup as an age gate, to control access to content.<br> <strong><a href=\"https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/115014370088\" title=\"https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/115014370088\">More details<\/a><\/strong><\/p>",
+    "newsletter_popup_text_align": "center",
+    "popup_button1": "Under 21",
+    "popup_button1_link": "",
+    "popup_button1_highlight": false,
+    "popup_button2": "21+ (Enter)",
+    "popup_button2_link": "",
+    "popup_button2_highlight": true,
+    "newsletter_popup_seconds": 4,
+    "newsletter_popup_days": "0",
+    "twitter_link": "",
+    "facebook_link": "https:\/\/www.facebook.com\/personalizydotcom",
+    "youtube_link": "",
+    "vimeo_link": "https:\/\/tiktok.com\/personalizy",
+    "pinterest_link": "",
+    "tumblr_link": "",
+    "instagram_link": "https:\/\/instagram.com\/personalizy.official",
+    "snapchat_link": "",
+    "houzz_link": "",
+    "linkedin_link": "",
+    "email_link": "support@personalizy.com",
+    "og_image_fallback": "",
+    "favicon": "shopify:\/\/shop_images\/Personalizy_New_Fav.png",
+    "disqus_enabled": false,
+    "disqus_shortname": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Personalizy_New_Logo.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "rgba(0,0,0,0)",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#565656",
+    "checkout_button_color": "#40ab0a",
+    "checkout_error_color": "#e32c2b",
+    "quick_shop_product_thumbs": true,
+    "quick_shop_slideshow_animation": "slide",
+    "quick_shop_product_images_position": "left",
+    "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "mlvedaACS_positionTop": "10px",
+    "quick_shop_zoom": true,
+    "mlvedaACS_positionLeft": "10px",
+    "mlvedaACS_defaultCurrency": "USD",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "mlvedaACS_position": "top_with_right",
+    "mlvedaACS_enable": true,
+    "mlvedaACS_supportedCurrencies": "USD GBP EUR CAD AUD INR JPY",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_displayFlag": true,
+    "mlvedaACS_autoSwitch": true,
+    "mlvedaACS_isCustomized": true,
+    "mlvedaACS_borderLook": false,
+    "quick_shop_gallery_arrows": true,
+    "mlvedaACS_textColor": "inherit",
+    "mlvedaACS_flagStyle": "circle",
+    "mlvedaACS_isMessageDisplay": true,
+    "mlvedaACS_messageColor": "inherit",
+    "mlvedaACS_roundDecimal": true,
+    "mlvedaACS_positionRight": "10px",
+    "mlvedaACS_positionBottom": "10px",
+    "mlvedaACS_roundDecimalValue": 1,
+    "mlvedaACS_backgroundColor": "inherit",
+    "mlvedaACS_textHoverColor": "inherit",
+    "mlvedaACS_hideDecimal": false,
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "mlvedaACS_borderLineColor": "inherit",
+    "quick_shop_thumbnail_position": "bottom-thumbnails",
+    "sections": {
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "wide_display": true,
+          "display_first_name": false,
+          "display_last_name": false,
+          "newsletter_title": "",
+          "newsletter_text": "<p>Sign up to stay in the know, and receive<br\/>10% OFF your next Personalizy purchase!<\/p>",
+          "newsletter_section_text_align": "center"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1580883670382": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Personalizy_New_Logo_white.png",
+              "text_align": "center",
+              "social_icons_footer": true
+            }
+          },
+          "1587282083687": {
+            "type": "text",
+            "settings": {
+              "title": "Personalizy",
+              "content": "<p>Email: support@personalizy.com Monday through Friday from 9:00 AM to 5:30 PM Eastern Time<\/p><p>United States: <br\/>201 E Center St Ste 112<br\/>Anaheim, CA 92805<\/p><p><\/p>",
+              "social_icons_footer": false
+            }
+          },
+          "1582224537333": {
+            "type": "link_list",
+            "settings": {
+              "menu": "footer",
+              "social_icons_footer": false
+            }
+          },
+          "1582224527679": {
+            "type": "link_list",
+            "settings": {
+              "menu": "quick-access",
+              "social_icons_footer": false
+            }
+          }
+        },
+        "block_order": [
+          "1580883670382",
+          "1587282083687",
+          "1582224537333",
+          "1582224527679"
+        ],
+        "settings": {
+          "copyright_text": "Personalizy is a brand of PERSONALIZY LTD.",
+          "display_designed_by": false,
+          "display_payment_methods": true
+        }
+      },
+      "contact-template": {
+        "type": "contact-template",
+        "settings": {
+          "image_darken": false,
+          "title": "Get in touch",
+          "subtitle": "Subheading",
+          "contact_text": "",
+          "show_map": false,
+          "wide_display": false,
+          "map_address": "",
+          "map_height": 400,
+          "zoom_level": 16,
+          "api_key": "",
+          "show_pin": true,
+          "map_style": "default"
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "heading",
+            "settings": {
+              "heading": "Our Products"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "Content",
+            "settings": {
+              "title": "What's the difference between THC and CBD?",
+              "subtitle": "<p>THC and CBD are both natural compounds found in Cannabis however, THC is the psychoactive which gives you the feeling of being&nbsp;<em>high,&nbsp;<\/em>while CBD does not contain the same psychoactive effects.&nbsp;<\/p>"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "heading",
+            "settings": {
+              "heading": "Orders"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "Content",
+            "settings": {
+              "title": "How long will it take to receive my order?",
+              "subtitle": "<p>For orders in Canada,&nbsp;you should receive your&nbsp;items within 1 - 3 business days. For orders in the U.S, you should receive your items within 10 business days.<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "Content",
+            "settings": {
+              "title": "Does CBD help with health issues?",
+              "subtitle": "<p>Many people use both CBD and THC to help with various health conditions. These conditions include pain relief, seizures, inflammation, anxiety and depression.&nbsp;<\/p>\n<p><\/p>\n<p>However, these products are not intended to diagnose, prevent, treat, or cure any disease.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "Content",
+            "settings": {
+              "title": "Can I use CBD in recipes?",
+              "subtitle": "<p>Sure!&nbsp;It is very common to consume CBD by ingesting edibles or adding oils into your own recipes.&nbsp;<\/p>"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "Content",
+            "settings": {
+              "title": "How can I keep my products fresh?",
+              "subtitle": "<p>To keep your products fresh and potent, store them in a dark, dry place and in an airtight container.<\/p>"
+            }
+          },
+          "page-faq-template-7": {
+            "type": "Content",
+            "settings": {
+              "title": "Do you offer refunds?",
+              "subtitle": "<p>No, unfortunately due to the nature of our products, we do not offer refunds.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-4",
+          "page-faq-template-5",
+          "page-faq-template-6",
+          "page-faq-template-7"
+        ],
+        "settings": {
+          "wide_display": true,
+          "image": "",
+          "pretext": "",
+          "title": "Frequently Asked Questions",
+          "subtitle": "",
+          "caption_background": false,
+          "caption_background_transparency": false,
+          "text_position": "left",
+          "text_align": "left",
+          "button1": "",
+          "button1_link": "",
+          "button1_highlight": false,
+          "button2": "",
+          "button2_link": "",
+          "button2_highlight": false
+        }
+      },
+      "mega-menu-1": {
+        "type": "mega-menu-1",
+        "blocks": {
+          "mega-menu-1-4": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "shopify:\/\/collections\/calm-balms",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "shopify:\/\/collections\/calm-balms",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-3": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "shopify:\/\/collections\/capsules",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "shopify:\/\/collections\/capsules",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-2": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "shopify:\/\/collections\/oils",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "shopify:\/\/collections\/oils",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-1": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "shopify:\/\/collections\/tea",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "shopify:\/\/collections\/tea",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-0": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "shopify:\/\/collections\/merchandise",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "shopify:\/\/collections\/merchandise",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-1-4",
+          "mega-menu-1-3",
+          "mega-menu-1-2",
+          "mega-menu-1-1",
+          "mega-menu-1-0"
+        ],
+        "settings": {
+          "parent": "products"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "wide_display": true,
+          "featured_image": "banner",
+          "image_darken": true,
+          "blog_breadcrumb": true,
+          "blog_pagination": true,
+          "blog_tags": false,
+          "blog_byline": false,
+          "read_time": true,
+          "blog_date": true,
+          "blog_author": false,
+          "display_social_buttons": true,
+          "blog_comment_count": true,
+          "blog_additional_posts": false,
+          "read_more_link": true,
+          "toggle": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "blocks": {
+          "d10e3a3d-d6f0-47db-b258-fb86bb605367": {
+            "type": "filter_by_tag",
+            "disabled": true,
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "d10e3a3d-d6f0-47db-b258-fb86bb605367"
+        ],
+        "settings": {
+          "product_thumbs": true,
+          "gallery_arrows": false,
+          "enable_product_lightbox": false,
+          "activate_zoom": false,
+          "slideshow_speed": 0,
+          "slideshow_animation": "slide",
+          "thumbnail_position": "left",
+          "enable_thumbnail_slider": true,
+          "display_vendor": false,
+          "product_breadcrumb": false,
+          "display_sku": false,
+          "display_collections": true,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": true,
+          "product_description_position": "bottom",
+          "display_savings": false,
+          "show_payment_button": false,
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": 470,
+          "video_looping": false,
+          "enable_shopify_product_badges": true,
+          "review_position": "next_to_gallery",
+          "display_recently_viewed": true,
+          "rv_title": "You Just Viewed",
+          "rv_products_style": "grid",
+          "rv_max_display": 4,
+          "rv_per": 4,
+          "toggle": false
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "wide_display": true,
+          "image": "",
+          "image_darken": false,
+          "subtitle": "",
+          "blog_posts_per_row": 2,
+          "blog_posts_per_page": 6,
+          "blog_tags": true,
+          "blog_author": false,
+          "read_time": true,
+          "blog_date": true,
+          "blog_comment_count": false,
+          "read_more_link": false,
+          "toggle": false
+        }
+      },
+      "product-details-template": {
+        "type": "product-details-template",
+        "blocks": {
+          "1581044001669": {
+            "type": "image_with_text",
+            "disabled": true,
+            "settings": {
+              "layout": false,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image_crop": "center",
+              "title": "Benefits",
+              "text": "<p>Uplight & ease your mind. Our CBD infused teas reduce anxiety, stress and help your feel calm – without any psychoactive effects.<\/p><p><\/p><p><strong>DOSAGE<br\/><\/strong>Scoop 1\/2 to 1 tsp and add it to 2 cups of hot water. <\/p><p><strong>INGREDIENTS<\/strong><\/p><p>• 10mg natural hemp extract 🌿<br\/>• Blend of lavender, strawberry and peppermint<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1581043921765": {
+            "type": "product_reviews",
+            "disabled": true,
+            "settings": {
+            }
+          },
+          "1581045545854": {
+            "type": "featured_video",
+            "disabled": true,
+            "settings": {
+              "wide_display": false,
+              "aspect_ratio": "16:9",
+              "autoplay": false,
+              "autoloop": true,
+              "mute_video": false,
+              "video_dark_overlay": false,
+              "iframe_video": "https:\/\/www.youtube.com\/watch?v=k9Zt0eKP8Rw",
+              "html5_video": "",
+              "ogv": "",
+              "display_text_over_video": false,
+              "pretext": "<p>Get the rest your body needs<\/p>",
+              "title": "Rejuvenate and wake up refreshed",
+              "subtitle": "",
+              "text_position": "center",
+              "text_align": "center",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "button1_label": "Play video",
+              "button1_link": "",
+              "button1_highlight": true,
+              "button2_label": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1581044001669",
+          "1581043921765",
+          "1581045545854"
+        ],
+        "settings": {
+          "product_thumbs": true,
+          "gallery_arrows": true,
+          "enable_product_lightbox": true,
+          "activate_zoom": false,
+          "slideshow_speed": 0,
+          "slideshow_animation": "slide",
+          "thumbnail_position": "bottom-slider",
+          "enable_thumbnail_slider": true,
+          "display_vendor": false,
+          "product_breadcrumb": false,
+          "display_sku": false,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "top",
+          "display_savings": true,
+          "show_payment_button": true,
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": 500,
+          "video_looping": false,
+          "enable_shopify_product_badges": false,
+          "enable_reviews_in_description": false
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "blocks": {
+          "1581060453419": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "title": "You may also be interested in",
+              "collection_description": false,
+              "collection": "",
+              "collection_style": "slider",
+              "products_per": 4,
+              "products_limit": 12
+            }
+          }
+        },
+        "block_order": [
+          "1581060453419"
+        ],
+        "settings": {
+          "display_special_instructions": false,
+          "display_savings": true,
+          "cart_message": ""
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "wide_display": true,
+          "map_image": "",
+          "map_address": "",
+          "map_height": 400,
+          "zoom_level": 16,
+          "api_key": "",
+          "show_pin": true,
+          "map_style": "default"
+        }
+      },
+      "page-details-template": {
+        "type": "page-details-template",
+        "blocks": {
+          "1580680888954": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": false,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "",
+              "image_crop": "none",
+              "title": "We're here to help.",
+              "text": "<p>We are a mindful collective with a focus on healing and wellness, looking to help people return to their&nbsp;authentic self. With our products, you can soothe your soul &ndash; and your joints!<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1580681916537": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": false,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "",
+              "image_crop": "none",
+              "title": "Our effective approach.",
+              "text": "<p>Not all cannabinoid products are created the same. We meticulously source our ingredients and are committed to bringing you&nbsp;only the very best.<\/p>",
+              "link": "shopify:\/\/blogs\/higher-education",
+              "button_label": "Learn more"
+            }
+          },
+          "page-details-template-11": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 10,
+              "divider_border": false
+            }
+          },
+          "1580681883908": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": false,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "",
+              "image_crop": "none",
+              "title": "Something for everyone.",
+              "text": "<p>We believe that our products help people and that they can have a positive impact on your every day life.<\/p>",
+              "link": "shopify:\/\/collections\/all",
+              "button_label": "View all"
+            }
+          },
+          "1580681859272": {
+            "type": "image_gallery",
+            "settings": {
+              "wide_display": true,
+              "detail_image_1": "",
+              "detail_image_2": "",
+              "detail_image_3": ""
+            }
+          },
+          "1581058529733": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 30,
+              "divider_border": false
+            }
+          },
+          "1580682059740": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "",
+              "pretext": "",
+              "title": "Feel the difference",
+              "subtitle": "<p><strong>your body &amp; mind will thank you later.<\/strong><\/p>",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "Explore",
+              "button1_link": "shopify:\/\/collections\/calm-balms",
+              "button1_highlight": true,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1581056540586": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 30,
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "1581056540586",
+          "1580680888954",
+          "page-details-template-11",
+          "1580681859272",
+          "1581058529733",
+          "1580681883908",
+          "1580681916537",
+          "1580682059740"
+        ],
+        "settings": {
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "image": "",
+          "image_darken": false,
+          "collection_breadcrumb": true,
+          "display_collection_title": false,
+          "align_height": true,
+          "collection_height": 260,
+          "collections_per_row": 3,
+          "pagination_limit": 18,
+          "toggle": false
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "settings": {
+          "image": "",
+          "image_darken": false,
+          "search_breadcrumb": true,
+          "search_term": "Search...",
+          "products_per_row": 3,
+          "pagination_limit": 48,
+          "blog_author": false,
+          "read_more_link": true,
+          "blog_date": true,
+          "toggle": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "blocks": {
+          "1580884106889": {
+            "type": "filter",
+            "disabled": true,
+            "settings": {
+              "filter_name": "Filter",
+              "filter_tags": "new, CBD, THC, oil, tea, softgels, calm balms, merchandise",
+              "enable_filter_swatches": false
+            }
+          },
+          "1581708441339": {
+            "type": "filter_by_collection",
+            "disabled": true,
+            "settings": {
+            }
+          },
+          "1588062640173": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "It’s LIKE an alarm clock for your hydration",
+              "text": "<p>Water bottle with a timer - Designed to remind you to drink 8 times a day, offers personalized settings to build hydration goals.<\/p><p>The smart drink water reminder bottle is designed according to the scientific hydrating concept of eight glasses of water a day, remind you to drink whenever is convenient for you, help you keep drinking regularly throughout the day, make sure you are drinking enough water and stay hydrated in the busy life.<\/p>"
+            }
+          },
+          "ae3cdb8f-df59-472f-b3d4-40432e819c86": {
+            "type": "filter_by_type",
+            "disabled": true,
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "1580884106889",
+          "1581708441339",
+          "1588062640173",
+          "ae3cdb8f-df59-472f-b3d4-40432e819c86"
+        ],
+        "settings": {
+          "wide_display": false,
+          "featured_collection_image": false,
+          "image_darken": false,
+          "image": "shopify:\/\/shop_images\/background_2.jpg",
+          "display_collection_title": false,
+          "collection_breadcrumb": true,
+          "collection_tags": false,
+          "collection_sort": true,
+          "products_per_row": 4,
+          "pagination_limit": 40,
+          "toggle": true
+        }
+      },
+      "password-template": {
+        "type": "password-template",
+        "settings": {
+          "custom_logo": "",
+          "logo_width": 150,
+          "custom_pagework_page_bg": true,
+          "password-page-background": "",
+          "pagework_page_bg_stretched": true,
+          "password_message": "",
+          "password_text": "",
+          "social_media": true
+        }
+      },
+      "contact-custom-template": {
+        "type": "contact-custom-template",
+        "blocks": {
+          "1580930447935": {
+            "type": "checkbox",
+            "settings": {
+              "label": "Topic of inquiry",
+              "required": false,
+              "options_1": "Product Inquiry",
+              "options_2": "Order Inquiry",
+              "options_3": "Partnership Opportunity",
+              "options_4": "",
+              "options_5": "",
+              "options_6": "",
+              "options_7": "",
+              "options_8": "",
+              "options_9": "",
+              "options_10": ""
+            }
+          },
+          "contact-custom-template-2": {
+            "type": "textarea",
+            "settings": {
+              "label": "Message",
+              "placeholder": "Message",
+              "required": true
+            }
+          },
+          "contact-custom-template-0": {
+            "type": "textfield",
+            "settings": {
+              "label": "Name",
+              "placeholder": "Name",
+              "required": true
+            }
+          },
+          "contact-custom-template-1": {
+            "type": "email",
+            "settings": {
+              "label": "Email",
+              "placeholder": "Email"
+            }
+          }
+        },
+        "block_order": [
+          "contact-custom-template-0",
+          "contact-custom-template-1",
+          "1580930447935",
+          "contact-custom-template-2"
+        ],
+        "settings": {
+          "image": "",
+          "image_darken": false,
+          "title": "Get in touch",
+          "subtitle": "Subheading",
+          "contact_image": "",
+          "contact_subheading": "",
+          "contact_content": "<p>Need guidance?&nbsp;We're here to help.&nbsp;<\/p>\n<p>We'll do our best to get back to you within 48 hours, Monday - Friday.&nbsp;<\/p>\n<p><\/p>\n<p><em>Have you checked out our <a href=\"\/pages\/faq\" title=\"FAQ\">FAQ<\/a> page?&nbsp;<\/em><\/p>",
+          "contact_text_position": "center",
+          "contact_text_alignment": "left",
+          "contact_social_buttons": true,
+          "contact_logo": ""
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "promo_text": "<p>FREE SHIPPING FOR PURCHASE ABOVE $90<\/p>",
+          "social_icons_header": false,
+          "phone_number": "",
+          "top_bar_menu": "",
+          "show_cart": true,
+          "cart_icon": "bag",
+          "logo_display_width": 205,
+          "logo": "shopify:\/\/shop_images\/Personalizy_New_Logo.png",
+          "logo_mobile": "shopify:\/\/shop_images\/Personalizy_New_Logo.png",
+          "main_linklist": "main-menu",
+          "main_linklist2": "",
+          "vertical_menu": true,
+          "search_enabled": true,
+          "fixed_header": true,
+          "logo_position": "left",
+          "logo_alignment": "left",
+          "menu_position": "inline",
+          "menu_alignment": "center",
+          "logo_top_padding": 12,
+          "menu_top_padding": 12
+        }
+      },
+      "1587282646422": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Best Selling",
+          "collection_description": false,
+          "collection": "best-selling",
+          "collection_style": "grid",
+          "products_per": 4,
+          "products_limit": 8
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_style": "grid",
+          "product_recommendations_heading": "You may also like...",
+          "products_per_row": 4,
+          "recommended_products_limit": 4
+        }
+      },
+      "product-full-width-images-template": {
+        "type": "product-full-width-images-template",
+        "settings": {
+          "product_thumbs": true,
+          "gallery_arrows": true,
+          "enable_product_lightbox": true,
+          "activate_zoom": false,
+          "slideshow_speed": 0,
+          "slideshow_animation": "slide",
+          "thumbnail_position": "left",
+          "enable_thumbnail_slider": true,
+          "display_vendor": false,
+          "product_breadcrumb": false,
+          "display_sku": false,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": true,
+          "product_description_position": "top",
+          "display_savings": true,
+          "show_payment_button": true,
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": 500,
+          "video_looping": false,
+          "enable_shopify_product_badges": false,
+          "review_position": "next_to_gallery",
+          "display_recently_viewed": false,
+          "rv_title": "Recently Viewed",
+          "rv_products_style": "grid",
+          "rv_max_display": 6,
+          "rv_per": 3,
+          "toggle": false
+        }
+      },
+      "product-description-bottom-template": {
+        "type": "product-description-bottom-template",
+        "settings": {
+          "product_thumbs": true,
+          "gallery_arrows": true,
+          "enable_product_lightbox": true,
+          "activate_zoom": false,
+          "slideshow_speed": 0,
+          "slideshow_animation": "slide",
+          "thumbnail_position": "left",
+          "enable_thumbnail_slider": true,
+          "display_vendor": false,
+          "product_breadcrumb": false,
+          "display_sku": false,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": true,
+          "display_savings": true,
+          "show_payment_button": false,
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": 500,
+          "video_looping": false,
+          "enable_shopify_product_badges": false,
+          "review_position": "next_to_gallery",
+          "display_recently_viewed": false,
+          "rv_title": "Recently Viewed Items",
+          "rv_products_style": "grid",
+          "rv_max_display": 4,
+          "rv_per": 4,
+          "toggle": false
+        }
+      },
+      "1657168803810a2dca": {
+        "type": "loox-all-reviews",
+        "settings": {
+          "only_photos": true,
+          "hide_thumbnails": true,
+          "product_handle": "",
+          "data-limit": 20,
+          "maxwidth": 1080
+        }
+      },
+      "1657169263ac2283ce": {
+        "type": "loox-carousel-reviews",
+        "settings": {
+          "max_width": 1920,
+          "arrows_color": "",
+          "dots_color": "",
+          "button_color": "",
+          "show_more": true,
+          "only_photos": false,
+          "use_widget_font": false,
+          "product_handle": ""
+        }
+      },
+      "165716951234999668": {
+        "type": "gallery",
+        "blocks": {
+          "e5bdcb99-9ed0-4944-b22e-8140f8b2c012": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.jpg"
+            }
+          },
+          "7a1a8153-8112-4f11-918d-0e715ddacbad": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3.jpg"
+            }
+          },
+          "165716951234999668-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/iap_640x640.2847592939_1hibdlcp.jpg"
+            }
+          },
+          "165716951234999668-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/iap_640x640.4022873545_e8ipp5z6.png"
+            }
+          },
+          "e65c6db6-1955-4a94-8512-d1229901208e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2.jpg"
+            }
+          },
+          "165716951234999668-4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/iap_640x640.3665914259_kneccvcm.jpg"
+            }
+          },
+          "165716951234999668-6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/iap_640x640.3399540743_eng1nqpy.jpg"
+            }
+          },
+          "5e836956-b7ba-4e15-b638-c58a331a4256": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/4.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "e5bdcb99-9ed0-4944-b22e-8140f8b2c012",
+          "7a1a8153-8112-4f11-918d-0e715ddacbad",
+          "165716951234999668-1",
+          "165716951234999668-2",
+          "e65c6db6-1955-4a94-8512-d1229901208e",
+          "165716951234999668-4",
+          "165716951234999668-6",
+          "5e836956-b7ba-4e15-b638-c58a331a4256"
+        ],
+        "settings": {
+          "wide_display": false,
+          "title": "Our Happy Customers ❤️",
+          "gallery_type": "masonry",
+          "grid-size": 4,
+          "enable_lightbox": true
+        }
+      },
+      "165716999438ae61c0": {
+        "type": "collection-list",
+        "blocks": {
+          "165716999438ae61c0-0": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "whiskey-glass"
+            }
+          },
+          "165716999438ae61c0-1": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "slate-plaque",
+              "image": "shopify:\/\/shop_images\/mk-2_9_2000x_bb218e2a-ac3c-46e8-a263-00c9d2429b58.webp"
+            }
+          },
+          "44958e2d-d83c-4dca-9b40-04135d0fddb1": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "platter"
+            }
+          }
+        },
+        "block_order": [
+          "165716999438ae61c0-0",
+          "165716999438ae61c0-1",
+          "44958e2d-d83c-4dca-9b40-04135d0fddb1"
+        ],
+        "settings": {
+          "title": "Features Collection",
+          "align_height": false,
+          "collection_height": 230,
+          "frontpage_collections_per_row": 3
+        }
+      },
+      "1657176341fc15fc89": {
+        "type": "image-text",
+        "blocks": {
+          "1657176341fc15fc89-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/220610-thumbnail-Personalized-gi.png",
+              "image_crop": "center",
+              "title": "Personalized Gifts",
+              "text": "<p>Unique personalization options for your individuality to shine through!<\/p>",
+              "button_label": "",
+              "link": "",
+              "bg_color": "",
+              "text_color": ""
+            }
+          },
+          "1657176341fc15fc89-1": {
+            "type": "image",
+            "settings": {
+              "image_crop": "none",
+              "title": "Worldwide Shipping",
+              "text": "<p>Available as standard delivery. All purchases are posted fully trackable.<\/p>",
+              "button_label": "",
+              "link": "",
+              "bg_color": "",
+              "text_color": ""
+            }
+          },
+          "dfc31687-a20d-4f15-80a3-ea12611ccf2d": {
+            "type": "image",
+            "settings": {
+              "image_crop": "none",
+              "title": "Your headline",
+              "text": "<p>Promotion description appears here.<\/p>",
+              "button_label": "View all",
+              "link": "",
+              "bg_color": "",
+              "text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1657176341fc15fc89-0",
+          "1657176341fc15fc89-1",
+          "dfc31687-a20d-4f15-80a3-ea12611ccf2d"
+        ],
+        "disabled": true,
+        "settings": {
+          "frontpage_grid_style": false,
+          "featured_links_per_row": "2",
+          "frontpage_text_align": "left",
+          "frontpage_image_position": "left"
+        }
+      },
+      "1657177058cbca9038": {
+        "type": "recently-viewed",
+        "settings": {
+          "rv_title": "Recently Viewed Products",
+          "rv_products_style": "grid",
+          "rv_max_display": 4,
+          "rv_per": 4
+        }
+      },
+      "collection-sub-collections-template": {
+        "type": "collection-sub-collections-template",
+        "settings": {
+          "wide_display": true,
+          "featured_collection_image": false,
+          "image_darken": false,
+          "collection_breadcrumb": true,
+          "display_collection_title": false,
+          "collection_tags": false,
+          "collection_sort": false,
+          "align_height": false,
+          "collection_height": 200,
+          "collections_per_row": 3,
+          "products_per_row": 3,
+          "pagination_limit": 48,
+          "toggle": false
+        }
+      },
+      "1659517371b90d3a62": {
+        "type": "loox-all-reviews",
+        "settings": {
+          "only_photos": false,
+          "hide_thumbnails": false,
+          "product_handle": "jesus-hugging-my-dog",
+          "data-limit": 20,
+          "maxwidth": 1080
+        }
+      },
+      "1663301611cf804ca1": {
+        "type": "newsletter",
+        "settings": {
+          "wide_display": true,
+          "display_first_name": false,
+          "display_last_name": false,
+          "newsletter_title": "Subscribe",
+          "newsletter_text": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
+          "newsletter_section_text_align": "center"
+        }
+      },
+      "02e5cccd-bea8-4170-ac62-8450b8c8a38f": {
+        "type": "slideshow",
+        "blocks": {
+          "0de8428a-a404-47e2-948f-5aa8b3a5139b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Untitled_design_1_50c2cf3d-b6bc-44f8-9338-10127b477935.jpg",
+              "pretext": "",
+              "title": "Cap off Your Achievement",
+              "subtitle": "<p>A collection of unique and creative graduation cap toppers to celebrate your success.<\/p>",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "button1": "DISCOVER NOW",
+              "button1_link": "https:\/\/personalizy.com\/collections\/graduation-cap-topper",
+              "button1_highlight": true,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "text_position": "center",
+              "text_align": "center",
+              "mobile_image_crop": "none"
+            }
+          },
+          "02e5cccd-bea8-4170-ac62-8450b8c8a38f-166745979927a60bb9-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Personalizy_Whiskey_Banner.jpg",
+              "pretext": "",
+              "title": "Engraved Whiskey Glasses",
+              "subtitle": "<p>Proudly handmade in the USA<\/p>",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "button1": "SHOP NOW",
+              "button1_link": "https:\/\/personalizy.com\/collections\/whiskey-glass",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "text_position": "left",
+              "text_align": "left",
+              "mobile_image_crop": "none"
+            }
+          },
+          "8cf74dcb-93fb-4f24-95e8-b9d70ed67225": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Personalizy_Platter_Banner.jpg",
+              "pretext": "",
+              "title": "High Quality Personalized Plates",
+              "subtitle": "<p>Enjoy your food in style with our unque plates designs<\/p>",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "button1": "Explore Now",
+              "button1_link": "https:\/\/personalizy.com\/collections\/platter",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "text_position": "left",
+              "text_align": "left",
+              "mobile_image_crop": "none"
+            }
+          }
+        },
+        "block_order": [
+          "0de8428a-a404-47e2-948f-5aa8b3a5139b",
+          "02e5cccd-bea8-4170-ac62-8450b8c8a38f-166745979927a60bb9-0",
+          "8cf74dcb-93fb-4f24-95e8-b9d70ed67225"
+        ],
+        "settings": {
+          "wide_display": true,
+          "slideshow_text_animation": "fadeInDown",
+          "slideshow_animation": "slide",
+          "slideshow_speed": 7,
+          "activate_adaptiveHeight": false,
+          "mobile_text_below_image": true,
+          "mobile_text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "97cef475-aa5d-46bc-8c72-56b727245f15": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Latina Graduation Cap Topper",
+          "collection_description": false,
+          "collection": "latin-grad-cap-topper",
+          "collection_style": "slider",
+          "products_per": 6,
+          "products_limit": 9
+        }
+      }
+    },
+    "content_for_index": [
+      "02e5cccd-bea8-4170-ac62-8450b8c8a38f",
+      "165716999438ae61c0",
+      "1587282646422",
+      "97cef475-aa5d-46bc-8c72-56b727245f15",
+      "1657168803810a2dca",
+      "1657169263ac2283ce",
+      "165716951234999668",
+      "1657176341fc15fc89",
+      "1657177058cbca9038",
+      "1659517371b90d3a62",
+      "1663301611cf804ca1"
+    ],
+    "blocks": {
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
+        "settings": {
+          "button_color": "#202a36",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": "👋 Hi there! Please message us if you have questions, or request. We’re happy to help."
+        }
+      }
+    }
+  },
+  "presets": {
+    "Night": {
+      "nav_font_style": "none",
+      "logo__font": "harmonia_sans_n9",
+      "disqus_shortname": "",
+      "popup_button1_link": "",
+      "banner_placeholder_background_color": "#666666",
+      "slideshow_subtitle_letter_spacing": 1,
+      "search_pagination_type": "basic_pagination",
+      "newsletter_popup_text": "<p>You can use this popup as an age gate, to control access to content.&nbsp;<\/p>",
+      "display_special_instructions": false,
+      "logo_color": "#ffffff",
+      "footer_bg": "",
+      "top_bar_cart_bg_color": "#1f2233",
+      "collection_swatches": false,
+      "newsletter_popup_color": "#fcac79",
+      "quick_shop_product_thumbs": true,
+      "newsletter_popup": false,
+      "email_link": "",
+      "link_hover_color": "#ed7529",
+      "checkout_accent_color": "#fcac79",
+      "quick_shop_display_savings": true,
+      "quick_shop_slideshow_animation": "slide",
+      "headline_border_color": "#49515e",
+      "testimonial_color": "#ffffff",
+      "bg_fixed": false,
+      "checkout_logo_size": "medium",
+      "sold_out_text": "Sold out",
+      "enable_shopify_review_comments": true,
+      "linkedin_link": "",
+      "read_more_style": "link",
+      "mega_text_letter_spacing": 1,
+      "slideshow_subtitle_font_style": "none",
+      "notify_me_form": true,
+      "promo_text_color": "#000000",
+      "shop_home_page_content_text_color": "#f8f8f8",
+      "top_bar_color": "#ffffff",
+      "nav_color_home": "#d9d9d9",
+      "footer_bg_stretched": false,
+      "table_styles_enabled": true,
+      "shop_bg_color": "#1f2233",
+      "modal_background_color": "#1f2233",
+      "cart_message": "",
+      "quick_shop_product_images_position": "left",
+      "featured_promotions_background": "#000000",
+      "checkout_body_background_image": "",
+      "product_form_style": "swatches",
+      "nav__font": "work_sans_n5",
+      "new_banner_color": "#49515e",
+      "footer_heading_font_size": 16,
+      "default_currency": "CAD",
+      "banner_style": "square",
+      "slideshow_headline_shadow": false,
+      "align_height": false,
+      "mega_text_font_size": 14,
+      "quick_shop_style": "inline",
+      "slideshow_shadow": false,
+      "promo_bg_color": "#fcac79",
+      "twitter_link": "https:\/\/twitter.com\/shopify",
+      "regular__font": "work_sans_n4",
+      "free_price_text": "Free",
+      "regular_font_style": "none",
+      "popup_button1_highlight": false,
+      "sale_banner_enabled": true,
+      "enable_shopify_collection_badges": true,
+      "supported_currencies": "USD CAD AUD GBP EUR JPY",
+      "search_option": "products",
+      "instagram_link": "https:\/\/instagram.com\/shopify",
+      "checkout_body_background_color": "#49515e",
+      "checkout_sidebar_background_image": "",
+      "display_tos_checkbox": false,
+      "headline_font_style": "none",
+      "tos_page": "",
+      "sidebar_nav_color_hover": "#fcac79",
+      "headline__font": "harmonia_sans_n9",
+      "sub_footer_border_color": "rgba(0,0,0,0)",
+      "sidebar_nav_color": "#ffffff",
+      "mega_menu_5": false,
+      "mega_menu_4": false,
+      "mega_menu_3": false,
+      "nav_font_size": 18,
+      "slideshow_headline_font_style": "none",
+      "product_hover_text_color": "#ffffff",
+      "password_page_text_color": "#ffffff",
+      "quick_shop_zoom": false,
+      "header_background": true,
+      "nav_color_hover": "#fcac79",
+      "featured_promotions_color_hover": "#ffffff",
+      "quick_shop_product_description_position": "top",
+      "checkout_sidebar_background_color": "#202835",
+      "collection_secondary_image": false,
+      "slideshow_nav_buttons": true,
+      "newsletter_section_background_color": "#242d3c",
+      "currency_format": "money_format",
+      "testimonial_bg_color": "#797d83",
+      "sub_footer_link_color": "#797d83",
+      "size_chart": "",
+      "logo_font_style": "none",
+      "mega_menu_2": false,
+      "mega_menu_1": true,
+      "top_bar_color_hover": "#fcac79",
+      "nav_color": "#d9d9d9",
+      "headline_font_size": 44,
+      "headline_color": "#8f98a6",
+      "newsletter_bg": "shopify:\/\/shop_images\/nl-popup.jpg",
+      "newsletter_popup_title": "Age Verification",
+      "arrow_color": "#333333",
+      "btn_text_color": "#1f2233",
+      "popup_button2_highlight": true,
+      "search_section_color": "#ffffff",
+      "show_shipping_calculator": true,
+      "show_multiple_currencies": true,
+      "display_first_name": false,
+      "collection_filter_color": "#fcac79",
+      "top_bar_letter_spacing": 1,
+      "top_bar_bg_color": "#1f2233",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "banner_button_color": "#fcac79",
+      "image_crop": "none",
+      "slideshow_arrow_size": "bold",
+      "top_bar_font_size": 12,
+      "youtube_link": "",
+      "link_color": "#8f98a6",
+      "use_newsletter_border": true,
+      "checkout_header_image": "shopify:\/\/shop_images\/hands-video.jpg",
+      "popup_button2_link": "",
+      "og_image_fallback": "shopify:\/\/shop_images\/chicago-night-social-share-image.jpg",
+      "shop_home_page_content_bg_color": "#12151f",
+      "slideshow_subtitle__font": "work_sans_n4",
+      "btn_hover_color": "#ed7529",
+      "sub_footer_color": "#12151f",
+      "inventory_threshold": 10,
+      "notify_me_richtext": "<p>Notify me when this product is available:<\/p>",
+      "newsletter_popup_text_align": "left",
+      "logo_font_size": 19,
+      "display_savings": false,
+      "btn_color": "#fcac79",
+      "border_color": "#49515e",
+      "product_hover_bg_color": "#1f2233",
+      "quick_shop_enabled": true,
+      "featured_links_background": "#1f2233",
+      "checkout_button_color": "#fcac79",
+      "newsletter_popup_background_color": "#1f2233",
+      "display_vendor": false,
+      "quick_shop_gallery_arrows": true,
+      "facebook_link": "https:\/\/facebook.com\/shopify",
+      "houzz_link": "",
+      "checkout_input_background_color_mode": "white",
+      "custom_scripts": "",
+      "banner_background_color": "#1f2233",
+      "minicart_bg_color": "#49515e",
+      "banner_color": "#ffffff",
+      "cart_action": "ajax",
+      "limit_quantity": false,
+      "slideshow_button_style": false,
+      "divider_style": "dashed",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "button_style": "square",
+      "mailchimp_link": "",
+      "nav_shadow": false,
+      "slideshow_headline__font": "harmonia_sans_n9",
+      "search_to_display": 5,
+      "transparent_header": false,
+      "vimeo_link": "",
+      "snapchat_link": "",
+      "headline_border": "4",
+      "popup_button2": "21+ (Enter)",
+      "popup_button1": "Under 21",
+      "footer_logo_font_size": 20,
+      "footer_font_size": 16,
+      "show_payment_button": true,
+      "regular_color": "#f8f8f8",
+      "thumbnail_hover_enabled": false,
+      "newsletter_popup_days": "2",
+      "newsletter_popup_mobile": false,
+      "sale_banner_color": "#be3469",
+      "password_page_background_color": "#000000",
+      "newsletter_popup_form": false,
+      "disqus_enabled": false,
+      "sub_footer_link_color_hover": "#ed7529",
+      "featured_promotions_mobile_background": true,
+      "quick_shop_display_vendor": false,
+      "bg_stretched": false,
+      "sub_footer_text_color": "#6b6b6b",
+      "repeat_bg": "repeat",
+      "button_font_style": "none",
+      "collection_height": 200,
+      "display_inventory_left": false,
+      "image_loading_style": "blur-up",
+      "search_section_bg_color": "#797d83",
+      "slideshow_headline_size": 60,
+      "slideshow_subtitle_size": 16,
+      "pinterest_link": "",
+      "regular_font_size": 18,
+      "pagination_type": "basic_pagination",
+      "show_lock_icon": true,
+      "newsletter_popup_close": false,
+      "checkout_logo_position": "left",
+      "checkout_logo_image": "shopify:\/\/shop_images\/chicago-logo-wt-peach-2.png",
+      "header_bg_color": "#1f2233",
+      "go_to_checkout": true,
+      "newsletter_popup_seconds": 12,
+      "mobile_products_per_row": "1",
+      "was_price_color": "#e7e8e9",
+      "headline_footer_text_color": "#ffffff",
+      "button_weight": "bold",
+      "newsletter_popup_image_align": "left",
+      "headline_letter_spacing": 1,
+      "secondary_newsletter_banner": true,
+      "newsletter_section_color": "#f8f8f8",
+      "quick_shop_full_description": false,
+      "featured_promotions_color": "#ffffff",
+      "checkout_error_color": "#e32c2b",
+      "swatch_style": "rounded",
+      "custom_bg": "",
+      "shipping_calculator_default_country": "United States",
+      "description_words": 25,
+      "modal_text_color": "#ffffff",
+      "display_product_quantity": false,
+      "display_last_name": false,
+      "tumblr_link": "",
+      "slideshow_headline_letter_spacing": 1,
+      "button_font_size": 16,
+      "display_price": false,
+      "favicon": "",
+      "sale_color": "#be3469",
+      "nav_letter_spacing": 1,
+      "performance": "ludicrous",
+      "quick_shop_thumbnail_position": "bottom-thumbnails",
+      "enable_autocomplete": true
+    },
+    "Day": {
+      "nav_font_style": "none",
+      "logo__font": "harmonia_sans_n9",
+      "disqus_shortname": "",
+      "popup_button1_link": "",
+      "banner_placeholder_background_color": "#ffffff",
+      "slideshow_subtitle_letter_spacing": 1,
+      "search_pagination_type": "basic_pagination",
+      "newsletter_popup_text": "<p>You can use this popup as an age gate, to control access to content.<br> <strong><a href=\"https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/115014370088\" title=\"https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/115014370088\">More details<\/a><\/strong><\/p>",
+      "display_special_instructions": false,
+      "logo_color": "#f5b661",
+      "footer_bg": "",
+      "top_bar_cart_bg_color": "#ffffff",
+      "collection_swatches": false,
+      "newsletter_popup_color": "#3349b5",
+      "quick_shop_product_thumbs": true,
+      "newsletter_popup": false,
+      "email_link": "",
+      "link_hover_color": "#3349b5",
+      "checkout_accent_color": "#3349b5",
+      "quick_shop_display_savings": true,
+      "quick_shop_slideshow_animation": "slide",
+      "headline_border_color": "#3349b5",
+      "testimonial_color": "#ffffff",
+      "bg_fixed": false,
+      "checkout_logo_size": "medium",
+      "sold_out_text": "Sold out",
+      "enable_shopify_review_comments": true,
+      "linkedin_link": "",
+      "read_more_style": "link",
+      "mega_text_letter_spacing": 1,
+      "slideshow_subtitle_font_style": "none",
+      "notify_me_form": true,
+      "promo_text_color": "#ffffff",
+      "shop_home_page_content_text_color": "#727272",
+      "top_bar_color": "#3349b5",
+      "nav_color_home": "#3349b5",
+      "footer_bg_stretched": false,
+      "table_styles_enabled": true,
+      "shop_bg_color": "#ffffff",
+      "modal_background_color": "#ffffff",
+      "cart_message": "",
+      "quick_shop_product_images_position": "left",
+      "featured_promotions_background": "#77c6d8",
+      "checkout_body_background_image": "",
+      "product_form_style": "swatches",
+      "nav__font": "work_sans_n5",
+      "new_banner_color": "#3349b5",
+      "footer_heading_font_size": 16,
+      "default_currency": "CAD",
+      "banner_style": "square",
+      "slideshow_headline_shadow": false,
+      "align_height": false,
+      "mega_text_font_size": 14,
+      "quick_shop_style": "inline",
+      "slideshow_shadow": false,
+      "promo_bg_color": "#3349b5",
+      "twitter_link": "https:\/\/twitter.com\/shopify",
+      "regular__font": "work_sans_n4",
+      "free_price_text": "Free",
+      "regular_font_style": "none",
+      "popup_button1_highlight": false,
+      "sale_banner_enabled": true,
+      "enable_shopify_collection_badges": true,
+      "supported_currencies": "USD CAD AUD GBP EUR JPY",
+      "search_option": "products",
+      "instagram_link": "https:\/\/instagram.com\/shopify",
+      "checkout_body_background_color": "#fff1df",
+      "checkout_sidebar_background_image": "",
+      "display_tos_checkbox": true,
+      "headline_font_style": "none",
+      "tos_page": "",
+      "sidebar_nav_color_hover": "#3349b5",
+      "headline__font": "harmonia_sans_n9",
+      "sub_footer_border_color": "#ffffff",
+      "sidebar_nav_color": "#3349b5",
+      "mega_menu_5": false,
+      "mega_menu_4": false,
+      "mega_menu_3": false,
+      "nav_font_size": 18,
+      "slideshow_headline_font_style": "none",
+      "product_hover_text_color": "#ffffff",
+      "password_page_text_color": "#ffffff",
+      "quick_shop_zoom": true,
+      "header_background": true,
+      "nav_color_hover": "#3349b5",
+      "featured_promotions_color_hover": "#fff",
+      "quick_shop_product_description_position": "top",
+      "checkout_sidebar_background_color": "#ffffff",
+      "collection_secondary_image": false,
+      "slideshow_nav_buttons": true,
+      "newsletter_section_background_color": "#fff1df",
+      "currency_format": "money_format",
+      "testimonial_bg_color": "#77c6d8",
+      "sub_footer_link_color": "#ffffff",
+      "size_chart": "",
+      "logo_font_style": "uppercase",
+      "mega_menu_2": false,
+      "mega_menu_1": true,
+      "top_bar_color_hover": "#3349b5",
+      "nav_color": "#3349b5",
+      "headline_font_size": 44,
+      "headline_color": "#f5b661",
+      "newsletter_bg": "",
+      "newsletter_popup_title": "Age verification",
+      "arrow_color": "#e0e0e0",
+      "btn_text_color": "#ffffff",
+      "popup_button2_highlight": true,
+      "search_section_color": "#3349b5",
+      "show_shipping_calculator": true,
+      "show_multiple_currencies": true,
+      "display_first_name": false,
+      "collection_filter_color": "#3349b5",
+      "top_bar_letter_spacing": 1,
+      "top_bar_bg_color": "#ffffff",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "banner_button_color": "#3349b5",
+      "image_crop": "none",
+      "slideshow_arrow_size": "bold",
+      "top_bar_font_size": 12,
+      "youtube_link": "",
+      "link_color": "#3349b5",
+      "use_newsletter_border": false,
+      "checkout_header_image": "shopify:\/\/shop_images\/banner-faq.jpg",
+      "popup_button2_link": "",
+      "og_image_fallback": "shopify:\/\/shop_images\/chicago-day-social-share-image.jpg",
+      "shop_home_page_content_bg_color": "#f9d5a5",
+      "slideshow_subtitle__font": "work_sans_n4",
+      "btn_hover_color": "#3349b5",
+      "sub_footer_color": "#ee8e8e",
+      "inventory_threshold": 10,
+      "notify_me_richtext": "<p>Notify me when this product is available:<\/p>",
+      "newsletter_popup_text_align": "center",
+      "logo_font_size": 20,
+      "display_savings": true,
+      "btn_color": "#fcc57c",
+      "border_color": "#fcc57c",
+      "product_hover_bg_color": "#77c6d8",
+      "quick_shop_enabled": true,
+      "featured_links_background": "#ffffff",
+      "checkout_button_color": "#3349b5",
+      "newsletter_popup_background_color": "#ffffff",
+      "display_vendor": false,
+      "quick_shop_gallery_arrows": true,
+      "facebook_link": "https:\/\/facebook.com\/shopify",
+      "houzz_link": "",
+      "checkout_input_background_color_mode": "white",
+      "custom_scripts": "",
+      "banner_background_color": "#fadab0",
+      "minicart_bg_color": "#fff7ed",
+      "banner_color": "#ffffff",
+      "cart_action": "ajax",
+      "limit_quantity": false,
+      "slideshow_button_style": false,
+      "divider_style": "dashed",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "button_style": "square",
+      "mailchimp_link": "",
+      "nav_shadow": false,
+      "slideshow_headline__font": "harmonia_sans_n9",
+      "search_to_display": 10,
+      "transparent_header": false,
+      "vimeo_link": "",
+      "snapchat_link": "",
+      "headline_border": "4",
+      "popup_button2": "21+ (Enter)",
+      "popup_button1": "Under 21",
+      "footer_logo_font_size": 20,
+      "footer_font_size": 16,
+      "show_payment_button": true,
+      "regular_color": "#727272",
+      "thumbnail_hover_enabled": false,
+      "newsletter_popup_days": "0",
+      "newsletter_popup_mobile": false,
+      "sale_banner_color": "#ff3099",
+      "password_page_background_color": "#77c6d8",
+      "newsletter_popup_form": false,
+      "disqus_enabled": false,
+      "sub_footer_link_color_hover": "#3349b5",
+      "featured_promotions_mobile_background": true,
+      "quick_shop_display_vendor": false,
+      "bg_stretched": false,
+      "sub_footer_text_color": "#ffffff",
+      "repeat_bg": "no-repeat",
+      "button_font_style": "none",
+      "collection_height": 200,
+      "display_inventory_left": false,
+      "image_loading_style": "blur-up",
+      "search_section_bg_color": "#fff1df",
+      "slideshow_headline_size": 60,
+      "slideshow_subtitle_size": 16,
+      "pinterest_link": "",
+      "regular_font_size": 18,
+      "pagination_type": "basic_pagination",
+      "show_lock_icon": true,
+      "newsletter_popup_close": false,
+      "checkout_logo_position": "left",
+      "checkout_logo_image": "shopify:\/\/shop_images\/chicago-logo-2020_white.png",
+      "header_bg_color": "#ffffff",
+      "go_to_checkout": true,
+      "newsletter_popup_seconds": 4,
+      "mobile_products_per_row": "1",
+      "was_price_color": "#727272",
+      "headline_footer_text_color": "#3349b5",
+      "button_weight": "bold",
+      "newsletter_popup_image_align": "left",
+      "headline_letter_spacing": 1,
+      "secondary_newsletter_banner": true,
+      "newsletter_section_color": "#727272",
+      "quick_shop_full_description": false,
+      "featured_promotions_color": "#fff",
+      "checkout_error_color": "#e32c2b",
+      "swatch_style": "rounded",
+      "custom_bg": "",
+      "shipping_calculator_default_country": "United States",
+      "description_words": 25,
+      "modal_text_color": "#3349b5",
+      "display_product_quantity": false,
+      "display_last_name": false,
+      "tumblr_link": "",
+      "slideshow_headline_letter_spacing": 1,
+      "button_font_size": 16,
+      "display_price": false,
+      "favicon": "",
+      "sale_color": "#ff3099",
+      "nav_letter_spacing": 1,
+      "performance": "ludicrous",
+      "quick_shop_thumbnail_position": "bottom-thumbnails",
+      "enable_autocomplete": true
+    }
+  }
+}
