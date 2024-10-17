@@ -57,8 +57,12 @@
   <div class="top_bar clearfix">
     <a class="mobile_nav dropdown_link" data-dropdown-rel="menu" data-no-instant="true">
       <div>
-        {% render 'icon-hamburger' %}
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+      <span class="menu_title">{{ 'layout.general.menu' | t }}</span>
     </a>
     <a href="{{ shop.url }}" title="{{ shop.name | escape }}" class="mobile_logo logo">
       {% if section.settings.logo_mobile != nil %}
@@ -71,14 +75,11 @@
     </a>
     <div class="top_bar--right">
       {% if section.settings.search_enabled %}
-        <a href="{{ routes.search_url }}" class="dropdown_link" title="{{ 'general.search.title' | t | escape }}" data-dropdown-rel="search">
-          {% render 'icon-search' %}
-        </a>
+        <a href="{{ routes.search_url }}" class="icon-search dropdown_link" title="{{ 'general.search.title' | t | escape }}" data-dropdown-rel="search"></a>
       {% endif %}
       {% if section.settings.show_cart %}
         <div class="cart_container">
-          <a href="{{ routes.cart_url }}" class="mini_cart dropdown_link" title="{{ 'layout.general.cart' | t | escape }}" data-no-instant>
-            {% render 'icon-cart' %} <span class="cart_count">{% include 'product-customizer-helper' with 'cart-item-count' %}</span></a>
+          <a href="{{ routes.cart_url }}" class="{% if section.settings.cart_icon == "cart" %}icon-cart{% else %}icon-bag{% endif %} mini_cart dropdown_link" title="{{ 'layout.general.cart' | t | escape }}" data-no-instant> <span class="cart_count">{% include 'product-customizer-helper' with 'cart-item-count' %}</span></a>
         </div>
       {% endif %}
     </div>
@@ -91,9 +92,7 @@
           {% if settings.search_option != 'everything' %}
             <input type="hidden" name="type" value="product" />
           {% endif %}
-          <span class="search-submit">
-            {% render 'icon-search' %}
-          </span>
+          <span class="icon-search search-submit"></span>
           <input type="text" name="q" placeholder="{{ 'general.search.title' | t: shop_name: shop.name }}" autocapitalize="off" autocomplete="off" autocorrect="off" class="search-terms" />
         </form>
       </div>
@@ -172,7 +171,205 @@
         <div class="promo_banner-close"></div>
       </div>
     {% endif %}
+    <div class="top_bar clearfix">
+      {% if section.settings.social_icons_header %}
+        {% include 'social-icons' %}
+      {% endif %}
+      <ul class="menu left">
+        {% if section.settings.phone_number != blank %}
+          <li><a href="tel:{{ section.settings.phone_number | replace: ' ', '' | replace: '+', '' | replace: '-', '' }}">{{ section.settings.phone_number }}</a></li>
+        {% endif %}
+        {% if section.settings.top_bar_menu != blank %}
+          {% for link in linklists[section.settings.top_bar_menu].links %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+      {% if section.settings.show_cart %}
+        <div class="cart_container clearfix">
+          <a href="{{ routes.cart_url }}" class="{% if section.settings.cart_icon == "cart" %}icon-cart{% else %}icon-bag{% endif %} mini_cart dropdown_link" data-no-instant>
+            <span class="cart_count">{% include 'product-customizer-helper' with 'cart-item-count' %}</span>
+          </a>
+          {% unless settings.cart_action == 'ajax' and template contains 'cart' %}
+            <div class="tos_warning cart_content animated fadeIn">
+              <div class="js-empty-cart__message {% if cart.item_count > 0 %}hidden{% endif %}">
+                <p class="empty_cart">{{ 'layout.general.empty_cart' | t }}</p>
+              </div>
+              <form action="/checkout" 
+                    method="post" 
+                    class="{% if cart.item_count == 0 %}hidden{% endif %}"
+                    data-total-discount="{{ cart.total_discount }}" 
+                    data-money-format="{{ shop.money_format | strip_html }}" 
+                    data-shop-currency="{{ shop.currency }}" 
+                    data-shop-name="{{ shop.name | escape }}" 
+                    data-cart-form="mini-cart">
+                <a class="cart_content__continue-shopping secondary_button">
+                  {{ 'cart.general.continue_shopping_link_html' | t }}
+                </a>
+                <ul class="cart_items js-cart_items clearfix">
+                  {% assign total_saving = 0 %}
+                  {% for item in cart.items %}
+{%- comment -%}Bold:PO 2.0 - Hybrid Input{%- endcomment -%}
+{%- if item.properties._boldBuilderId  and item.properties._boldVariantIds == null -%}
+<input type="hidden" name="updates[]" id="updates_{{- item.key -}}" class="bold_hidden_input cart__product-qty" value="{{- item.quantity -}}" min="0" data-id="{{- item.key -}}">
+{%- continue -%}
+{%- endif -%}
+                    {% if item.variant.compare_at_price > item.variant.price %}
+                      {% assign saving = item.variant.compare_at_price | minus: item.variant.price | times: item.quantity %}
+                      {% assign total_saving = saving | plus: total_saving %}
+                    {% endif %}
 
+                    <li  data-hulkapps-lineitem class="mini-cart__item clearfix" data-cart-item data-line-id="{{ forloop.index }}" data-variant-id="{{ item.id }}">
+
+
+                      <a href="{{ item.url }}">
+                        {% if item.product.featured_media.preview_image %}
+                          <div class="cart_image mini-cart__item-image">
+                            <img src="{{ item.product.featured_media.preview_image | img_url: '320x' }}" alt="{{ item.title | escape }}" class="lazyload" />
+                          </div>
+                        {% endif %}
+                      </a>
+
+                      <div class="mini-cart__item--content">
+                        <div class="mini-cart__item__title">
+                          <div class="item_title">
+                            <a  data-hulkapps-line-properties href="{{ item.url }}">
+                              {{ item.product.title }}
+                              {% unless item.product.has_only_default_variant or item.variant.title contains "Title" %}
+                                -
+                                {% for option in item.product.options %}
+                                  {{ item.variant.options[forloop.index0] }} {% unless forloop.last %}/{% endunless %}
+                                {% endfor %}
+                              {% endunless %}
+                              {% if item.properties %}
+                                {% for p in item.properties %}
+                                  {% if p.last != blank %}
+                                    <div class="line-item">
+                                      {{ p.first }}: {{ p.last }}
+                                    </div>
+                                  {% endif %}
+                                {% endfor %}
+                              {% endif %}
+                            </a>
+<button type='button' style='display: none;' class='edit_cart_option btn btn--primary button' data-product_id='{{item.product_id}}' data-key='{{item.key}}' data-variant_id='{{item.variant_id}}' data-quantity='{{item.quantity}}'>Edit Options</button>
+                          </div>
+                        </div>
+
+                        <strong class="left price">
+                          {% if item.price > 0 %}
+                            <span  data-hulkapps-ci-price data-key='{{item.key}}' class="money {% if item.price < item.variant.compare_at_price or item.line_level_discount_allocations.size > 0 %}sale{% endif %}">
+                              {{ item.final_price | money }}
+                            </span>
+                            {% if item.price < item.variant.compare_at_price or item.line_level_discount_allocations.size > 0 %}
+                              <span class="money was_price">
+                                {{ item.variant.compare_at_price | money }}
+                              </span>
+                            {% endif %}
+                          {% else %}
+                              {{ settings.free_price_text }}
+                          {% endif %}
+                        </strong>
+
+                        {% if item.line_level_discount_allocations.size > 0 %}
+                          {% for discount_allocation in item.line_level_discount_allocations %}
+                            <p class="notification-discount meta">
+                              {{ discount_allocation.discount_application.title }}
+                            </p>
+                          {% endfor %}
+                        {% endif %}
+
+                        <div class="left product-quantity-box">
+                          <span class="ss-icon product-minus js-change-quantity" data-func="minus"><span class="icon-minus"></span></span>
+                          <input type="number" min="0" size="2" class="quantity" name="updates[]" id="updates_{{ item.id }}" value="{{ item.quantity }}" data-cart-quantity-input="mini-cart" {% if settings.limit_quantity and item.variant.inventory_management != blank and item.variant.inventory_quantity > 0 and item.variant.inventory_policy == "deny" %}max="{{ item.variant.inventory_quantity }}"{% endif %}/>
+                          <span class="ss-icon product-plus js-change-quantity" data-func="plus"><span class="icon-plus"></span></span>
+                        </div>
+
+                      </div>
+
+                      <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="cart__remove-btn" data-line-id="{{ forloop.index }}" data-remove-item="mini-cart"><span class="remove-icon"></span></a>
+
+                    </li>
+                  {% endfor %}
+                </ul>
+
+                <ul>
+
+                  <li class="cart_discounts js-cart_discounts sale">
+                    {% if cart.cart_level_discount_applications != blank %}
+                      {% for discount_application in cart.cart_level_discount_applications %}
+                        <span class="cart_discounts--title">{{ discount_application.title }}</span>
+                        <span class="cart_discounts--price">
+                          -<span class="money">{{ discount_application.total_allocated_amount | money }}</span>
+                        </span>
+                      {% endfor %}
+                    {% endif %}
+                  </li>
+
+                  <li class="cart_subtotal js-cart_subtotal">
+                    <span class="right">
+                      <span  data-hulkapps-cart-total class="money">{{ cart.total_price | money }}</span>
+                    </span>
+                    <span>{{ 'layout.general.subtotal' | t }}</span>
+                  </li>
+
+                  <li class="cart_savings sale js-cart_savings">
+                    {% if settings.display_savings and total_saving > 0 or settings.display_savings and cart.total_discount > 0 %}
+                      <span class="right">
+                        <span class="money">{{ total_saving | plus: cart.total_discount | money }}</span>
+                      </span>
+                      <span>{{ 'layout.general.savings' | t }}</span>
+                    {% endif %}
+                  </li>
+
+                  <li>
+                    {% if settings.display_special_instructions and settings.go_to_checkout %}
+                      <textarea id="note" name="note" rows="2" placeholder="{{ 'layout.general.cart_note' | t }}" class="clearfix">{{ cart.note }}</textarea>
+                    {% endif %}
+
+                    {% if settings.display_tos_checkbox and settings.go_to_checkout %}
+                      <p class="tos">
+                        <input type="checkbox" class="tos_agree" id="sliding_agree" required />
+                          <label class="tos_label">
+                            {{ 'cart.general.agree_to_terms_html' | t }}
+                          </label>
+                          {% if settings.tos_page != blank %}
+                            <a href="{{ pages[settings.tos_page].url }}" target="_blank" class="tos_icon">{{ 'cart.general.view_terms' | t }}</a>
+                          {% endif %}
+                      </p>
+                    {% endif %}
+
+                    {% if settings.cart_message != blank %}
+                      <div class="cart_text">
+                        {{ settings.cart_message }}
+                      </div>
+                    {% endif %}
+
+                    {% if settings.go_to_checkout %}
+                      <button type="submit" class="action_button add_to_cart">{% if settings.show_lock_icon %}<span class="icon-lock"></span>{% endif %}{{ 'layout.general.checkout' | t }}</button>
+                    {% else %}
+                      <button type="submit" class="action_button add_to_cart">{% if settings.show_lock_icon %}<span class="icon-lock"></span>{% endif %}{{ 'layout.general.go_to_cart' | t }} </button>
+                    {% endif %}
+                  </li>
+                </ul>
+              </form>
+            </div>
+          {% endunless %}
+        </div>
+      {% endif %}
+
+      <ul class="menu right">
+        {% if settings.show_multiple_currencies %}
+          <li>
+            {% include 'currencies-switcher' %}
+          </li>
+        {% endif %}
+        {% if shop.customer_accounts_enabled %}
+          <li>
+            <a href="{{ routes.account_url }}" class="icon-user" title="{{ 'layout.customer.my_account' | t }} {% if customer %}({{ customer.email }}){% endif %}"> <span>{% if customer %}{{ 'layout.customer.my_account' | t }}{% else %}{{ 'layout.customer.log_in' | t }}{% endif %}</span></a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
 
     <div class="main_nav_wrapper">
       <div class="main_nav clearfix menu-position--{{ section.settings.menu_position }} logo-align--{{ section.settings.logo_alignment }} logo-position--{{ section.settings.logo_position }} search-enabled--{{ section.settings.search_enabled }}">
@@ -213,16 +410,12 @@
                 {% if settings.search_option != 'everything' %}
                   <input type="hidden" name="type" value="product" />
                 {% endif %}
-                <span class="search-submit">
-                  {% render 'icon-search' %}
-                </span>
+                <span class="icon-search search-submit"></span>
                 <input type="text" name="q" placeholder="{{ 'general.search.title' | t: shop_name: shop.name }}" value="{% if search and search.results.first.price %}{{ search.terms | replace: '*', '' }}{% endif %}" autocapitalize="off" autocomplete="off" autocorrect="off" />
               </form>
             </li>
             <li class="search_link">
-              <a href="{{ routes.search_url }}" class="dropdown_link" title="{{ 'general.search.title' | t | escape }}" data-dropdown-rel="search">
-                {% render 'icon-search' %}
-              </a>
+              <a href="{{ routes.search_url }}" class="icon-search dropdown_link" title="{{ 'general.search.title' | t | escape }}" data-dropdown-rel="search"></a>
             </li>
           {% endif %}
         {% endcapture %}
@@ -255,9 +448,7 @@
                 {% if settings.search_option != 'everything' %}
                   <input type="hidden" name="type" value="product" />
                 {% endif %}
-                <span class="search-submit">
-                  {% render 'icon-search' %}
-                </span>
+                <span class="icon-search search-submit"></span>
                 <input type="text" name="q" placeholder="{{ 'general.search.title' | t: shop_name: shop.name }}" autocapitalize="off" autocomplete="off" autocorrect="off" class="search-terms" />
               </form>
             </div>
@@ -265,183 +456,6 @@
         {% endif %}
         {% include 'sub-menu' with section.settings.main_linklist %}
         {% include 'sub-menu' with section.settings.main_linklist2 %}
-
-        <div class="menu-action">
-          <a href="{{ routes.account_url }}" class="icon-customer" title="{{ 'layout.customer.my_account' | t }} {% if customer %}({{ customer.email }}){% endif %}">
-            {% render 'icon-customer' %}
-          </a>
-          {% if section.settings.show_cart %}
-            <div class="cart_container">
-              <a href="{{ routes.cart_url }}" class=" mini_cart dropdown_link" data-no-instant>
-                {% render 'icon-cart' %}<span class="cart_count">{% include 'product-customizer-helper' with 'cart-item-count' %}</span>
-              </a>
-              {% unless settings.cart_action == 'ajax' and template contains 'cart' %}
-                <div class="tos_warning cart_content animated fadeIn">
-                  <div class="js-empty-cart__message {% if cart.item_count > 0 %}hidden{% endif %}">
-                    <p class="empty_cart">{{ 'layout.general.empty_cart' | t }}</p>
-                  </div>
-                  <form action="/checkout" 
-                        method="post" 
-                        class="{% if cart.item_count == 0 %}hidden{% endif %}"
-                        data-total-discount="{{ cart.total_discount }}" 
-                        data-money-format="{{ shop.money_format | strip_html }}" 
-                        data-shop-currency="{{ shop.currency }}" 
-                        data-shop-name="{{ shop.name | escape }}" 
-                        data-cart-form="mini-cart">
-                    <a class="cart_content__continue-shopping secondary_button">
-                      {{ 'cart.general.continue_shopping_link_html' | t }}
-                    </a>
-                    <ul class="cart_items js-cart_items clearfix">
-                      {% assign total_saving = 0 %}
-                      {% for item in cart.items %}
-                        {%- comment -%}Bold:PO 2.0 - Hybrid Input{%- endcomment -%}
-                        {%- if item.properties._boldBuilderId  and item.properties._boldVariantIds == null -%}
-                          <input type="hidden" name="updates[]" id="updates_{{- item.key -}}" class="bold_hidden_input cart__product-qty" value="{{- item.quantity -}}" min="0" data-id="{{- item.key -}}">
-                          {%- continue -%}
-                        {%- endif -%}
-                        {% if item.variant.compare_at_price > item.variant.price %}
-                          {% assign saving = item.variant.compare_at_price | minus: item.variant.price | times: item.quantity %}
-                          {% assign total_saving = saving | plus: total_saving %}
-                        {% endif %}
-    
-                        <li  data-hulkapps-lineitem class="mini-cart__item clearfix" data-cart-item data-line-id="{{ forloop.index }}" data-variant-id="{{ item.id }}">
-    
-    
-                          <a href="{{ item.url }}">
-                            {% if item.product.featured_media.preview_image %}
-                              <div class="cart_image mini-cart__item-image">
-                                <img src="{{ item.product.featured_media.preview_image | img_url: '320x' }}" alt="{{ item.title | escape }}" class="lazyload" />
-                              </div>
-                            {% endif %}
-                          </a>
-    
-                          <div class="mini-cart__item--content">
-                            <div class="mini-cart__item__title">
-                              <div class="item_title">
-                                <a  data-hulkapps-line-properties href="{{ item.url }}">
-                                  {{ item.product.title }}
-                                  {% unless item.product.has_only_default_variant or item.variant.title contains "Title" %}
-                                    -
-                                    {% for option in item.product.options %}
-                                      {{ item.variant.options[forloop.index0] }} {% unless forloop.last %}/{% endunless %}
-                                    {% endfor %}
-                                  {% endunless %}
-                                  {% if item.properties %}
-                                    {% for p in item.properties %}
-                                      {% if p.last != blank %}
-                                        <div class="line-item">
-                                          {{ p.first }}: {{ p.last }}
-                                        </div>
-                                      {% endif %}
-                                    {% endfor %}
-                                  {% endif %}
-                                </a>
-                                <button type='button' style='display: none;' class='edit_cart_option btn btn--primary button' data-product_id='{{item.product_id}}' data-key='{{item.key}}' data-variant_id='{{item.variant_id}}' data-quantity='{{item.quantity}}'>Edit Options</button>
-                              </div>
-                            </div>
-    
-                            <strong class="left price">
-                              {% if item.price > 0 %}
-                                <span  data-hulkapps-ci-price data-key='{{item.key}}' class="money {% if item.price < item.variant.compare_at_price or item.line_level_discount_allocations.size > 0 %}sale{% endif %}">
-                                  {{ item.final_price | money }}
-                                </span>
-                                {% if item.price < item.variant.compare_at_price or item.line_level_discount_allocations.size > 0 %}
-                                  <span class="money was_price">
-                                    {{ item.variant.compare_at_price | money }}
-                                  </span>
-                                {% endif %}
-                              {% else %}
-                                  {{ settings.free_price_text }}
-                              {% endif %}
-                            </strong>
-    
-                            {% if item.line_level_discount_allocations.size > 0 %}
-                              {% for discount_allocation in item.line_level_discount_allocations %}
-                                <p class="notification-discount meta">
-                                  {{ discount_allocation.discount_application.title }}
-                                </p>
-                              {% endfor %}
-                            {% endif %}
-    
-                            <div class="left product-quantity-box">
-                              <span class="ss-icon product-minus js-change-quantity" data-func="minus"><span class="icon-minus"></span></span>
-                              <input type="number" min="0" size="2" class="quantity" name="updates[]" id="updates_{{ item.id }}" value="{{ item.quantity }}" data-cart-quantity-input="mini-cart" {% if settings.limit_quantity and item.variant.inventory_management != blank and item.variant.inventory_quantity > 0 and item.variant.inventory_policy == "deny" %}max="{{ item.variant.inventory_quantity }}"{% endif %}/>
-                              <span class="ss-icon product-plus js-change-quantity" data-func="plus"><span class="icon-plus"></span></span>
-                            </div>
-    
-                          </div>
-    
-                          <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="cart__remove-btn" data-line-id="{{ forloop.index }}" data-remove-item="mini-cart"><span class="remove-icon"></span></a>
-    
-                        </li>
-                      {% endfor %}
-                    </ul>
-    
-                    <ul>
-    
-                      <li class="cart_discounts js-cart_discounts sale">
-                        {% if cart.cart_level_discount_applications != blank %}
-                          {% for discount_application in cart.cart_level_discount_applications %}
-                            <span class="cart_discounts--title">{{ discount_application.title }}</span>
-                            <span class="cart_discounts--price">
-                              -<span class="money">{{ discount_application.total_allocated_amount | money }}</span>
-                            </span>
-                          {% endfor %}
-                        {% endif %}
-                      </li>
-    
-                      <li class="cart_subtotal js-cart_subtotal">
-                        <span class="right">
-                          <span  data-hulkapps-cart-total class="money">{{ cart.total_price | money }}</span>
-                        </span>
-                        <span>{{ 'layout.general.subtotal' | t }}</span>
-                      </li>
-    
-                      <li class="cart_savings sale js-cart_savings">
-                        {% if settings.display_savings and total_saving > 0 or settings.display_savings and cart.total_discount > 0 %}
-                          <span class="right">
-                            <span class="money">{{ total_saving | plus: cart.total_discount | money }}</span>
-                          </span>
-                          <span>{{ 'layout.general.savings' | t }}</span>
-                        {% endif %}
-                      </li>
-    
-                      <li>
-                        {% if settings.display_special_instructions and settings.go_to_checkout %}
-                          <textarea id="note" name="note" rows="2" placeholder="{{ 'layout.general.cart_note' | t }}" class="clearfix">{{ cart.note }}</textarea>
-                        {% endif %}
-    
-                        {% if settings.display_tos_checkbox and settings.go_to_checkout %}
-                          <p class="tos">
-                            <input type="checkbox" class="tos_agree" id="sliding_agree" required />
-                              <label class="tos_label">
-                                {{ 'cart.general.agree_to_terms_html' | t }}
-                              </label>
-                              {% if settings.tos_page != blank %}
-                                <a href="{{ pages[settings.tos_page].url }}" target="_blank" class="tos_icon">{{ 'cart.general.view_terms' | t }}</a>
-                              {% endif %}
-                          </p>
-                        {% endif %}
-    
-                        {% if settings.cart_message != blank %}
-                          <div class="cart_text">
-                            {{ settings.cart_message }}
-                          </div>
-                        {% endif %}
-    
-                        {% if settings.go_to_checkout %}
-                          <button type="submit" class="action_button add_to_cart">{% if settings.show_lock_icon %}<span class="icon-lock"></span>{% endif %}{{ 'layout.general.checkout' | t }}</button>
-                        {% else %}
-                          <button type="submit" class="action_button add_to_cart">{% if settings.show_lock_icon %}<span class="icon-lock"></span>{% endif %}{{ 'layout.general.go_to_cart' | t }} </button>
-                        {% endif %}
-                      </li>
-                    </ul>
-                  </form>
-                </div>
-              {% endunless %}
-            </div>
-          {% endif %}
-        </div>
       </div>
     </div>
   </div>
@@ -728,30 +742,7 @@
       "default": 0,
       "unit": "px"
     }
-  ],
-    "blocks": [
-      {
-        "type": "mega-menu",
-        "name": "Mega menu",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Mega navigation trigger"
-          },
-          {
-            "type": "url",
-            "id": "url",
-            "label": "Link"
-          },
-          {
-            "type": "link_list",
-            "id": "menu",
-            "label": "Megamenu"
-          }
-        ]
-      }
-    ]
+  ]
 }
 
 {% endschema %}
